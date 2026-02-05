@@ -1,7 +1,7 @@
 <?php
 /*
 This PHP script parses an IceCast2 radio log and outputs the number of radio listeners to GoogleCharts.
-Parameters required are date and minimum required listening time.
+Parameters required are date and minimum required listening time in seconds.
 
 */
 
@@ -322,3 +322,4 @@ return $interval_counts;
     </body>
 
     </html>
+
