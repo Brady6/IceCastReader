@@ -1,5 +1,11 @@
 <?php
-    
+/*
+This PHP script parses an IceCast2 radio log and outputs the number of radio listeners to GoogleCharts.
+Parameters required are date and minimum required listening time.
+
+*/
+
+
  $file_path = "access.log";
     
 $handle = fopen($file_path, "r") or die("Unable to open " . $filepath);
@@ -314,4 +320,5 @@ return $interval_counts;
 
 
     </body>
+
     </html>
